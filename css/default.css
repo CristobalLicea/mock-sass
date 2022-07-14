@@ -1,0 +1,132 @@
+:root {
+  --front-gray: #778795;
+  --front-blue: #387eff;
+  --front-green: #00c9a6;
+  --light-blue: #ecf2ff;
+  --lighter-blue: #f8fafe;
+}
+
+body {
+  font-family: 'Montserrat', Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+}
+p {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 255, 85);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 80px 0px;
+}
+
+.card-space {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.center-card {
+  text-align: center;
+}
+
+.form {
+  background-color: white;    
+  border-radius: 5px;
+  width: 560px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-space {
+  width: 80%;
+  height: 85%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.blue-button {
+  padding: 15px 25px 15px 25px;
+  border-radius: 40px;
+  background-color: var(--front-blue);
+  color: white;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.learn-more {
+  color: var(--front-blue);
+  text-decoration: none;
+}
+
+.eff1 {
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.eff2 {
+  justify-content: center;
+  align-items:flex-end;
+}
+
+.eff3 {
+  align-items:flex-start;
+  justify-content: end;
+}
+
+.eff4 {
+  justify-content: start;
+  align-items: center;
+}
+
+.eff5 {
+  align-items:flex-end;
+}
+.eff6 {
+  justify-content: end;
+}
+
+.eff7 {
+  justify-content: center;
+  align-items:flex-end;
+}
